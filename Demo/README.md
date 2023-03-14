@@ -2,7 +2,6 @@
 # **Introduction**
 
 This is a Java program that automates the purchasing process of a dress from Amazon.in website using Selenium WebDriver.
-
 ## Prerequisites
 
 * Java Development Kit (JDK)
@@ -34,8 +33,6 @@ This is a Java program that automates the purchasing process of a dress from Ama
 * Assert that the quantity and price of the item in the cart match the quantity and price at proceed to pay.
 * Take a screenshot of the login page.
 * Close the browser.
-
-
 
 **Author**
 - Pranitha K 
