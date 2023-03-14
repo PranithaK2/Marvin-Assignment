@@ -12,10 +12,9 @@ import java.util.Set;
 
 public class Marvin_Assignment {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webDriver.chrome.driver", "/Users/pranithak/Downloads/chromedriver_mac_arm64 (1)/chromedriver");
+        System.setProperty("webDriver.chrome.driver", "src/main/resources/msedgedriver");
         WebDriver driver = new EdgeDriver();
         try{
-
             //Open "Amazon" website
             driver.get("https://www.amazon.in/");
             driver.manage().window().maximize();
